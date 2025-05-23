@@ -22,7 +22,7 @@ import { Bars3Icon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon, XMarkIcon }
 export default function Welcome() {
   const { auth } = usePage().props; // Correctly placed usePage() hook
 
-  const currencies = ['CAD', 'USD', 'AUD', 'EUR', 'GBP'];
+  const currencies = ['EUR', 'CAD', 'USD', 'AUD', 'GBP'];
 
  
 

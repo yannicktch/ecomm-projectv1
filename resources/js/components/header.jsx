@@ -18,11 +18,11 @@ import {
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingCartIcon, UserIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 
-const currencies = ['CAD', 'USD', 'AUD', 'EUR', 'GBP']
+const currencies = ['EUR', 'CAD', 'USD', 'AUD', 'GBP']
 const navigation = {
   categories: [
     {
-      name: 'Women',
+      name: 'Femme',
       featured: [
         { name: 'Sleep', href: '#' },
         { name: 'Swimwear', href: '#' },
@@ -50,7 +50,7 @@ const navigation = {
       ],
     },
     {
-      name: 'Men',
+      name: 'Homme',
       featured: [
         { name: 'Casual', href: '#' },
         { name: 'Boxers', href: '#' },
