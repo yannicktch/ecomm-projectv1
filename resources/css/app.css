@@ -166,8 +166,14 @@
   min-width: 0;
 }
 .embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 100%;
+    min-width: 0;
 }
-
-
+.embla__slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
