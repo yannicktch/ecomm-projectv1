@@ -178,12 +178,17 @@
     object-fit: contain;
 }
 
-a {text-decoration: none;}
+a {text-decoration: none;
+}
 
 .container {
 	margin-left: 0;
 	width: auto;
     max-width: 1000px;
+}
+
+li {
+  padding-bottom: 10px;
 }
 
 
@@ -228,6 +233,7 @@ nav > ul > li:hover > a {
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
   	position: absolute;
+    z-index: 50;
   	left: 0;
   	width: 100%;
     padding-bottom: 20px;
