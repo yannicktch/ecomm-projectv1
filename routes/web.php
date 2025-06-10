@@ -11,6 +11,11 @@ Route::get('/articles-grid', function () {
     return Inertia::render('articles-grid'); // 'ArticleGrid' refers to resources/js/Pages/ArticleGrid.jsx
 })->name('articles.index'); // Give it a name for easier linking
 
+Route::get('/sneakers', function () {
+    return Inertia::render('sneakers'); 
+})->name('sneakers.index'); 
+
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('dashboard', function () {
         return Inertia::render('dashboard');
