@@ -1,3 +1,5 @@
+import React from 'react';
+import { Head, Link } from '@inertiajs/react';
 import '../../css/app.css';
 import ucisee from '../ASSETS/images/LOGO-CARTOON.png';
 
@@ -8,7 +10,7 @@ const Header = () => {
                     <li className="dropdown">
                         {' '}
                         // FEMMES //
-                        <a href="article-display.html">
+                        <a href="/articles-grid">
                             FEMME <i className="fa fa-angle-down"></i>
                         </a>
                         <div className="mega-menu">
@@ -70,7 +72,7 @@ const Header = () => {
                     <li className="dropdown">
                         {' '}
                         // HOMMES //
-                        <a className="font-medium" href="article-display.html">
+                        <a className="font-medium" href="/articles-grid">
                             HOMMES <i className="fa fa-angle-down"></i>
                         </a>
                         <div className="mega-menu">
@@ -222,10 +224,10 @@ const Header = () => {
                         </div>
                     </li>
 
-                    <li className="dropdown">
+                    <li className="dropdown" href="/sneakers">
                         {' '}
                         // SNEAKERS //
-                        <a className="font-medium" href="sneakers.html">
+                        <a className="font-medium" href="/sneakers">
                             FOOTWEAR <i className="fa fa-angle-down"></i>
                         </a>
                     </li>
@@ -240,7 +242,7 @@ const Header = () => {
                 </ul>
 
                 <div className="logo-container">
-                    <a href="index.html">
+                    <a href="/">
                         <img src={ucisee} alt="LOGO" className="logo" />
                     </a>
                 </div>

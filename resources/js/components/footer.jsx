@@ -1,4 +1,5 @@
 import logo from '../ASSETS/images/LOGO-CARTOON.png';
+import {Head, Link} from '@inertiajs/react';
 
 
 export default function Footer() {
@@ -8,12 +9,12 @@ export default function Footer() {
 <footer class="bg-white">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="../welcome.jsx" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+            <a href="/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                 <img src={logo} class="h-22" alt="share the vision." />
             </a>
             <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0">
                 <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Shop</a>
+                    <a href="/articles-grid" class="hover:underline me-4 md:me-6">Shop</a>
                 </li>
                 <li>
                     <a href="#" class="hover:underline me-4 md:me-6">Contact</a>
